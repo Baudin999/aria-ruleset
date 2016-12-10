@@ -1,0 +1,114 @@
+% ARIA MAGIC
+
+\newpage
+\section{Magic}
+
+Magic is the ability to change reality with your mental power and some arcane knowledge. Magic in Aria is very straight forward, when you choose a magical profession you get a magic skill. 
+
+\bigskip
+
+Intuition (INU) is the statistic which is used for your magical skills. Evert 10 Intuition increases your damage by 1.
+
+\bigskip
+
+There are true casters and there are affinities. True casters are: Priests, Elementalists, Shamans and Dreamers. Classes which have an affinity are: Paladins, Druids and Shapeshifters. Non magic users are: Warriors, Rogues and Hunters.
+
+Of these classes the Shaman is the strangest. They can't really cast spells but all of their spells are instant triggering a cooldown. For example, \emph{Wind Weapon} reduces Initiative of a weapon but can only be cast once every 50 initiative.
+
+Classes with an affinity don't have \emph{Magical Sight} but they \emph{can} sense magic. 
+
+\subsection{Casting}
+Spells need to be cast. Casting a spell means that you will get the result of the spell after the cast is finished. Contrary to melee attacks, which have a cooldown period, spells have a cast time.
+
+You roll, just like any other skill, with your level number of d10 dice. So at level four you roll 4d10 t determine how well you cast your spell.
+
+Just as we do with every roll we also roll a d20 which we call "the world die". This die decides how well the cast reflects upon the world. For example, rolling a 1 is an automatic failure and rolling a 20 is what we call a critical and will result in a better effect. 
+
+\subsubsection{Manipulating the cast}
+When you have cast a spell you can \emph{hold} it in until you see the right moment. This is called \emph{extending the cast}.
+
+\bigskip
+
+When you want to increase the potency of a spell you can do that by increasing your casting time and subsequently increasing the AP needed for that cast. The following table describes the effect and the cost\footnote{There are a lot of spells which don't adhere to this concept. Discretion advised!}:
+
+
+\begin{table}[H]
+\caption{Casting duration and effect}
+\begin{center}
+\begin{tabular}{l | c | c}
+Effect & Duration Factor & Action Points \\
+ \hline
+dice + 1 & INI * 1.5 & AP + 1 \\
+dice + 2 & INI * 2 & AP + 2 \\
+dice + 3 & INI * 3 & AP + 3
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsubsection{Helping each other}
+When there are more casters in the group it is possible for them to help each other with difficult casts. They can do two things while helping. They can spit the AP cost of a spell, fractions rounded up, or they can add a fraction of their skill to the cast of the other mage. Higher skill levels are harder to counter-spell by the enemy.
+
+The lead mage who's spell it is casts full skill level. The second mage helping him casts for half skill level. The third for one third, etc\footnote{fractions rounded down}. 
+
+\subsection{Types of spells}
+There are three types of spells you can cast: Offensive, Defensive and Utility spells. Unless specified differently by the spell each spell has a default configuration. A configuration is a set of properties a spell has. This does not mean that \emph{every} spell has these properties. For example, the default configuration of an offensive spell has a \emph{duration}. This does not mean that a \emph{Fireball} has a duration, only that \emph{when} a spell has a duration it's duration at rank 1, so when bought, is 30 initiative.
+
+\subsubsection{Offensive spells}
+Offensive spells are spells which hinder or hurt an opponent. A default offensive spell has the following properties:
+
+\begin{itemize}
+\item Duration: 30 INI (+5 per rank)
+\item Targets: Spell rank / 2 (fractions rounded down)
+\item Damage: Standard: 1d6
+\item Cast time: 12 INI
+\item AP cost: 3
+\end{itemize}
+
+\subsection{Detecting Magic}
+Every caster can detect magic. This is true for paladins, druids, shapeshifters and other semi-casters. At Intuition meters you can feel someone cast a spell or detect magical objects when their magic has not been hidden.
+
+Full casters, for example: Priests, Dreamers and Elementalists; can activate their magical sight. This costs an action but costs no Action Points. Once your magical sight has been activated you can see magic at sight range. You can detect magically hidden objects and see spells being woven. Once your sight is turned on you can counterspell spells casts further than INU meters.
+
+\subsubsection{Defensive spells}
+Defensive spells are spells which help of heal a party member. A default defensive spell has the following properties:
+
+\begin{itemize}
+\item Duration: 50 INI (+10 per rank)
+\item Targets: Spell rank / 2 (fractions rounded down)
+\item Cast time: 10 INI
+\item AP cost: 3
+\end{itemize}
+
+\subsubsection{Utility spells}
+A utility spell is a spell which you can't \emph{directly} use in combat. For example, the spell \emph{Dig} has a casting time of 500 Initiative and as such is not usable in combat; but when you use this spell before a combat and cover the hole you've dug you get a perfect trap while in combat.
+
+By default a utility spell does not cost any AP to cast. You can cast them almost continuously and they are meant to add \emph{flavor} to your character. A caster can have as many utility spells as they like and they can create new ones together with the DM. You are even allowed to cast them "on the fly" without having learned them but you suffer a casting penalty of -4 per level.
+
+This means that when a level 3 Air mage wants to cast an umbrella against \emph{normal} rain and they haven't learned the spell; they can try and cast it with a -12 to their skill. The DM can decide to grant a bonus or increase the penalty. Note that this spell would not work against \emph{Acid Rain} because that would make it a Defensive spell and the rules of the spell would change.
+
+\subsection{General Spells}
+Every caster gets the following spells:
+
+\begin{table}[H]
+\begin{minipage}[b]{0.8\linewidth}
+\caption{Spells for every true caster}
+\begin{center}
+\begin{tabulary}{\linewidth}{p{2.5cm} p{2cm} L}
+Name & Type & Description \\
+ \hline
+Shield & Defensive & You gain a protective shield with PHY as protective value. \\
+Magic Missile & Offensive & When you have a source you can shoot a missile which does magical DMG. Depending on which is higher you can either choose to resist the DMG with your magical or physical armor but only one counts.  
+\end{tabulary}
+\end{center}
+\end{minipage}
+\end{table}
+
+
+\subsection{Counterspell}
+When another magic-user wants to counter-spell a magical attack they roll for their magical skill and if they have a higher skill the spell is canceled. Both the caster and the defender lose 3AP\footnote{3AP is the standard amount of action points for a spell. If your casts cost less your counter-spell will cost less as well.} in the process. 
+\bigbreak
+You can only counter-spell a spell when you are either really close to the caster or if you have activated your Magical Sight.
+
+\subsection{Protection and resistance}
+Casters gain an automatic protection against magic of Intuition / 2. This counts as resistance to every magical attack. So if you have an INU of 12 and a fireball does 20 damage you only lose 8 hit points.
+
